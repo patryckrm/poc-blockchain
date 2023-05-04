@@ -1,0 +1,80 @@
+<html>
+<head>
+<meta http-equiv='pragma' content='no-cache' />
+<meta http-equiv='cache-control' content='no-cache' />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <br/><br/>
+                <h2>Organização de Saúde</h2>
+                <hr/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <h5>Cadastros Básicos</h5>
+                <a href='paciente-cadastro.html'>Dados do Paciente</a> <br/>
+                <a href='paciente/saude-carteira-incluir.php'>Carteira do Paciente</a> <br/>
+                <br/>
+
+                <h5>Consultas</h5>
+                <a href='paciente/saude-dados-paciente-listar.php'>Informações do Paciente</a>
+            </div>
+            <div class="col-6">
+                <h5>Acesso Rápido</h5>
+            </div>
+        </div>
+
+</div>
+<!--
+<table>
+	<tr>
+		<td valign=top>
+			<table class="index_box">
+				<tr><th>Cadastros Básicos</th></tr>
+				<tr><td><a href='paciente/saude-carteira-incluir.php'>Carteira do Paciente</a></td></tr>
+				<tr><td><a href='paciente/saude-dados-paciente-incluir.php'>Dados do Paciente</a></td></tr>
+			</table>
+		</td>
+		<td valign=top>
+			<table class="index_box">
+				<tr><th>Consultas</th></tr>
+				<tr><td><a href='paciente/saude-dados-paciente-listar.php'>Informações do Paciente</a></td></tr>
+			</table>
+		</td>
+		<td valign=top>
+			<table class="index_box">
+				<tr><th>Acesso R�pido</th></tr>
+				<tr><td>
+					<form name='frm1' action='adi-it-localizar.php3' method='POST' style='border:0; margin:0'>
+						IT:
+						<input type='text' style='width:75px; text-align:right' name='pCD_IT' maxlength='6' value=''> / <input type='text' style='width:40px; text-align:center' name='pCD_ANO_IT' maxlength='4' value='<? echo date('Y'); ?>'>
+						<input type=hidden name=filtro value='S'>
+						<input type='submit' class='botao' value='OK'>
+					</form>
+					<script language='javascript'> document.frm1.pCD_IT.focus(); </script>
+				</td></tr>
+
+				<tr><th>Consultas</th></tr>
+				<tr><td><a href='adi-it-pesquisa-palavra.php3'>IT por Palavra-Chave</a></td></tr>
+				<tr><td class="blank">&nbsp;</td></tr>
+				<tr><td><a href='adi-it-filtrar.php3?fCD_STATUS_2=1000'>Filtrar IT</a></td></tr>
+				
+				<tr><th>Relat�rios</th></tr>
+				<tr><td><a href='relatorio-it-por-tipo-versao-ano.php3'>Relat�rio de IT por Tipo e Vers�o</a></td></
+				tr>
+			</table>
+		</td>
+	</tr>
+</table>
+-->
+
+</body>
+</html>

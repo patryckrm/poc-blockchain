@@ -1,0 +1,6 @@
+
+
+const ADMIN_ACCOUNT = "0xc7a74395349B73A04593F2DcE596E36F6645E475";
+
+const SERVICE_URL = "http://localhost:7070";
+
